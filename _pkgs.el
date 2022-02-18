@@ -1,0 +1,5 @@
+(package! wakatime-mode)
+(package! vim-modeline)
+(package! ttcn-mode)
+(package! treemacs-all-the-icons)
+(package! org-modern)
