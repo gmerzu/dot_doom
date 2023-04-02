@@ -85,7 +85,8 @@
   :init
   (add-hook! 'prog-mode-hook #'wakatime-mode)
   :config
-  (setq wakatime-cli-path (file-truename "~/.local/bin/wakatime"))
+  ;; (setq wakatime-cli-path (file-truename "~/.local/bin/wakatime"))
+  (setq wakatime-cli-path (file-truename "~/GitHub/wakatime-cli/build/wakatime-cli-linux-amd64"))
   (defun merzu/wakatime-dashboard ()
     (interactive)
     (browse-url "https://wakatime.com/dashboard"))

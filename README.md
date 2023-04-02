@@ -1,1 +1,1 @@
-Configs for [Doom Emacs](https://github.com/hlissner/doom-emacs)
+Configs for [Doom Emacs](https://github.com/doomemacs/doomemacs)
