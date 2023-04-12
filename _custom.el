@@ -18,6 +18,18 @@
 (map! :leader (:prefix-map ("b" . "buffer") :desc "List bookmarks" "L" #'list-bookmarks))
 
 
+;; Adjust scrool config.
+(setq-default scroll-margin 5
+  scroll-up-aggressively 0.01
+  scroll-down-aggressively 0.01)
+
+
+;; Persist evil marks.
+; (desktop-save-mode)
+; (add-to-list 'desktop-locals-to-save 'evil-markers-alist)
+; (setq-default desktop-locals-to-save '(evil-markers-alist))
+
+
 ;; Bind key to change tab groups.
 (use-package! centaur-tabs
   :config
